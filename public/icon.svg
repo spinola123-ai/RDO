@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="108" fill="#0284c7"/>
+  <rect x="32" y="32" width="448" height="448" rx="80" fill="url(#grad)" opacity="0.9"/>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0369a1"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <!-- Hard Hat & Clipboard Glyph -->
+  <g transform="translate(106, 96)" fill="white">
+    <!-- Clipboard body -->
+    <rect x="30" y="40" width="240" height="300" rx="20" fill="#f8fafc" stroke="#38bdf8" stroke-width="8"/>
+    <!-- Clip -->
+    <rect x="100" y="20" width="100" height="36" rx="10" fill="#f59e0b"/>
+    <circle cx="150" cy="38" r="8" fill="#0f172a"/>
+    <!-- Checklist items inside -->
+    <rect x="60" y="100" width="180" height="14" rx="7" fill="#0284c7"/>
+    <rect x="60" y="135" width="140" height="12" rx="6" fill="#94a3b8"/>
+    <rect x="60" y="165" width="160" height="12" rx="6" fill="#94a3b8"/>
+    
+    <rect x="60" y="205" width="40" height="35" rx="8" fill="#10b981"/>
+    <path d="M72 222 L80 230 L90 215" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="115" y="210" width="125" height="12" rx="6" fill="#64748b"/>
+    <rect x="115" y="230" width="90" height="10" rx="5" fill="#cbd5e1"/>
+
+    <!-- Construction Helmet Badge -->
+    <g transform="translate(140, 190)">
+      <circle cx="90" cy="90" r="75" fill="#f59e0b" stroke="#ffffff" stroke-width="10"/>
+      <!-- Helmet dome -->
+      <path d="M45 95 C45 60 70 50 90 50 C110 50 135 60 135 95 Z" fill="#ffffff"/>
+      <!-- Helmet brim -->
+      <path d="M35 95 Q90 90 145 95 Q145 105 135 105 Q90 100 45 105 Z" fill="#e2e8f0"/>
+      <!-- Ridge -->
+      <rect x="85" y="48" width="10" height="35" rx="5" fill="#f59e0b"/>
+    </g>
+  </g>
+</svg>

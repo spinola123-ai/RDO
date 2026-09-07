@@ -1,0 +1,260 @@
+[
+  {
+    "id": "rdo_sample_042",
+    "reportNumber": 42,
+    "date": "2026-09-06",
+    "projectInfo": {
+      "projectName": "Edifício Residencial Horizonte Park",
+      "codeOrContract": "CTR-2026/089-ENG",
+      "artNumber": "ART-SP 28941042-8",
+      "clientName": "Incorporadora & Construtora Vanguarda S/A",
+      "location": "Av. Paulista, 1420 - Bela Vista, São Paulo - SP",
+      "engineerName": "",
+      "engineerCREA": "",
+      "clientInspector": "",
+      "totalDays": 540,
+      "elapsedDays": 142,
+      "startDate": "2026-04-10"
+    },
+    "weather": {
+      "morning": {
+        "condition": "ensolarado",
+        "groundCondition": "seco",
+        "temperature": 23,
+        "rainMm": 0,
+        "notes": "Condições excelentes para escavação e fôrmas"
+      },
+      "afternoon": {
+        "condition": "chuva_fraca",
+        "groundCondition": "praticavel",
+        "temperature": 27,
+        "rainMm": 4.2,
+        "notes": "Pancada isolada entre 14:30 e 15:15"
+      },
+      "night": {
+        "condition": "nublado",
+        "groundCondition": "seco",
+        "temperature": 20,
+        "rainMm": 0
+      },
+      "autoFetched": true,
+      "fetchedCity": "São Paulo - SP",
+      "fetchedTemp": 26,
+      "fetchedHumidity": 68,
+      "fetchedDescription": "Tempo Parcialmente Nublado com pancadas leves à tarde"
+    },
+    "directLabor": [
+      {
+        "id": "dl_s1",
+        "role": "Encarregado Geral",
+        "company": "Próprio",
+        "quantity": 2,
+        "hoursWorked": 8.8
+      },
+      {
+        "id": "dl_s2",
+        "role": "Pedreiro de Alvenaria",
+        "company": "Próprio",
+        "quantity": 8,
+        "hoursWorked": 8.8
+      },
+      {
+        "id": "dl_s3",
+        "role": "Servente de Apoio",
+        "company": "Próprio",
+        "quantity": 12,
+        "hoursWorked": 8.8
+      },
+      {
+        "id": "dl_s4",
+        "role": "Armador de Ferro",
+        "company": "AçoForte Ltda",
+        "quantity": 5,
+        "hoursWorked": 8.8
+      },
+      {
+        "id": "dl_s5",
+        "role": "Carpinteiro",
+        "company": "Próprio",
+        "quantity": 4,
+        "hoursWorked": 8.8
+      },
+      {
+        "id": "dl_s6",
+        "role": "Encanador Hidráulico",
+        "company": "Sanear Terceirizada",
+        "quantity": 2,
+        "hoursWorked": 8.8
+      }
+    ],
+    "indirectLabor": [
+      {
+        "id": "il_s1",
+        "role": "Engenheiro Residente",
+        "quantity": 1,
+        "hoursWorked": 8.8
+      },
+      {
+        "id": "il_s2",
+        "role": "Técnico de Seg. Trabalho (TST)",
+        "quantity": 1,
+        "hoursWorked": 8.8
+      },
+      {
+        "id": "il_s3",
+        "role": "Mestre de Obras",
+        "quantity": 1,
+        "hoursWorked": 8.8
+      },
+      {
+        "id": "il_s4",
+        "role": "Almoxarife",
+        "quantity": 1,
+        "hoursWorked": 8.8
+      }
+    ],
+    "equipment": [
+      {
+        "id": "eq_s1",
+        "name": "Escavadeira Hidráulica 20T",
+        "codeOrPlate": "ESC-01",
+        "quantity": 1,
+        "status": "operando",
+        "hoursOperated": 6.5,
+        "hoursStandby": 1.5,
+        "hoursMaintenance": 0.8
+      },
+      {
+        "id": "eq_s2",
+        "name": "Retroescavadeira Case 580",
+        "codeOrPlate": "RET-02",
+        "quantity": 1,
+        "status": "operando",
+        "hoursOperated": 7,
+        "hoursStandby": 1.8,
+        "hoursMaintenance": 0
+      },
+      {
+        "id": "eq_s3",
+        "name": "Caminhão Basculante 14m³",
+        "codeOrPlate": "CAM-05",
+        "quantity": 2,
+        "status": "operando",
+        "hoursOperated": 6,
+        "hoursStandby": 2.8,
+        "hoursMaintenance": 0
+      },
+      {
+        "id": "eq_s4",
+        "name": "Gerador a Diesel 75kVA",
+        "codeOrPlate": "GER-01",
+        "quantity": 1,
+        "status": "operando",
+        "hoursOperated": 8.8,
+        "hoursStandby": 0,
+        "hoursMaintenance": 0
+      }
+    ],
+    "stoppages": [
+      {
+        "id": "stp_1",
+        "reason": "clima_chuva",
+        "affectedTeamOrEquipment": "Equipe de Terraplenagem & Escavadeira ESC-01",
+        "startTime": "14:30",
+        "endTime": "15:15",
+        "totalHours": 0.75,
+        "impactLevel": "medio",
+        "description": "Chuva localizada impediu o tráfego dos caminhões basculantes na rampa de terra. Reiniciado após secagem parcial."
+      },
+      {
+        "id": "stp_2",
+        "reason": "quebra_equipamento",
+        "affectedTeamOrEquipment": "Escavadeira Hidráulica ESC-01",
+        "startTime": "10:15",
+        "endTime": "11:00",
+        "totalHours": 0.75,
+        "impactLevel": "baixo",
+        "description": "Rompimento da mangueira hidráulica auxiliar. Substituição efetuada pela equipe mecânica no local."
+      }
+    ],
+    "activities": [
+      {
+        "id": "act_s1",
+        "sector": "Bloco A - Fundação e Vigas Baldrame",
+        "description": "Conclusão da armação e posicionamento dos espaçadores plásticos nas vigas VB-12 a VB-16. Liberação topográfica conferida.",
+        "progressPercent": 90,
+        "status": "em_andamento",
+        "safetyDDS": true,
+        "crew": "Equipe Armação AçoForte",
+        "notes": "Topógrafo verificou cota de nível antes do fechamento das fôrmas."
+      },
+      {
+        "id": "act_s2",
+        "sector": "Área Periférica - Muro de Arrimo",
+        "description": "Perfuração e concretagem de 6 estacas hélice contínua Ø 40cm, profundidade média de 14 metros.",
+        "progressPercent": 60,
+        "status": "em_andamento",
+        "safetyDDS": true,
+        "crew": "Equipe de Fundações Especiais",
+        "notes": "Consumo de concreto usinado Fck 30 MPa: 18m³."
+      },
+      {
+        "id": "act_s3",
+        "sector": "Canteiro Geral - Drenagem Provisória",
+        "description": "Instalação de canaletas para contenção de águas pluviais e ligação de bomba submersível na bacia de decantação.",
+        "progressPercent": 100,
+        "status": "concluido",
+        "safetyDDS": true,
+        "crew": "Equipe de Apoio e Serventes"
+      }
+    ],
+    "safety": {
+      "ddsRealized": true,
+      "ddsTheme": "Diálogo Diário: Cuidados na movimentação de cargas suspensas e isolamento do raio do guindaste (NR-18)",
+      "incidentsReported": false,
+      "incidentDetails": "",
+      "epiInspectionStatus": "conforme",
+      "wasteManagementNotes": "Triagem de resíduos classe A e destinação de 2 caçambas para bota-fora licenciado."
+    },
+    "photos": [
+      {
+        "id": "photo_seed_1",
+        "base64Data": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"400\" viewBox=\"0 0 600 400\"><rect width=\"600\" height=\"400\" fill=\"%23cbd5e1\"/><rect x=\"40\" y=\"240\" width=\"520\" height=\"130\" fill=\"%2364748b\"/><rect x=\"100\" y=\"80\" width=\"160\" height=\"160\" fill=\"%23e2e8f0\" stroke=\"%2394a3b8\" stroke-width=\"4\"/><path d=\"M100 80 L180 20 L260 80 Z\" fill=\"%23f97316\"/><rect x=\"320\" y=\"140\" width=\"200\" height=\"100\" fill=\"%2338bdf8\" opacity=\"0.8\"/><circle cx=\"500\" cy=\"80\" r=\"40\" fill=\"%23facc15\"/><text x=\"50\" y=\"380\" font-family=\"sans-serif\" font-size=\"20\" fill=\"white\" font-weight=\"bold\">VISTA GERAL - ARMAÇÃO BLOCO A</text></svg>",
+        "caption": "Conferência de armação das vigas baldrame do Bloco A com espaçadores instalados.",
+        "sectorTag": "Bloco A - Fundação",
+        "timestamp": "2026-09-06T18:30:24.418Z",
+        "latitude": -23.5505,
+        "longitude": -46.6333,
+        "takenOffline": true
+      },
+      {
+        "id": "photo_seed_2",
+        "base64Data": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"400\" viewBox=\"0 0 600 400\"><rect width=\"600\" height=\"400\" fill=\"%2394a3b8\"/><rect x=\"0\" y=\"260\" width=\"600\" height=\"140\" fill=\"%2378350f\"/><rect x=\"120\" y=\"190\" width=\"180\" height=\"90\" fill=\"%23eab308\" rx=\"10\"/><circle cx=\"150\" cy=\"285\" r=\"28\" fill=\"%231e293b\"/><circle cx=\"270\" cy=\"285\" r=\"28\" fill=\"%231e293b\"/><path d=\"M280 210 L390 150 L450 200\" stroke=\"%23ca8a04\" stroke-width=\"14\" stroke-linecap=\"round\" fill=\"none\"/><text x=\"40\" y=\"380\" font-family=\"sans-serif\" font-size=\"20\" fill=\"white\" font-weight=\"bold\">RETROESCAVADEIRA - VALA DE DRENAGEM</text></svg>",
+        "caption": "Abertura de vala para drenagem de águas pluviais com retroescavadeira.",
+        "sectorTag": "Área Periférica",
+        "timestamp": "2026-09-06T18:30:24.418Z",
+        "latitude": -23.5505,
+        "longitude": -46.6333,
+        "takenOffline": true
+      }
+    ],
+    "signatures": {
+      "engineer": {
+        "signed": true,
+        "signerName": "Eng. Roberto Albuquerque Silva",
+        "signerRole": "Engenheiro Responsável Técnico",
+        "signedAt": "2026-09-06T18:30:24.418Z"
+      },
+      "inspector": {
+        "signed": false,
+        "signerName": "Arq. Mariana Mendonça (Fiscal)",
+        "signerRole": "Fiscal da Contratante"
+      }
+    },
+    "generalNotes": "Relatório diário elaborado conforme diretrizes do canteiro. Previsão de chegada de concreto usinado amanhã às 08h30. Sem desvios críticos.",
+    "syncStatus": "synced",
+    "createdAt": "2026-09-06T18:30:24.418Z",
+    "updatedAt": "2026-09-06T18:30:24.418Z",
+    "syncedAt": "2026-09-06T18:30:26.490Z"
+  }
+]
