@@ -2,7 +2,7 @@
   {
     "id": "rdo_sample_042",
     "reportNumber": 42,
-    "date": "2026-09-06",
+    "date": "2026-09-07",
     "projectInfo": {
       "projectName": "Edifício Residencial Horizonte Park",
       "codeOrContract": "CTR-2026/089-ENG",
@@ -13,7 +13,7 @@
       "engineerCREA": "",
       "clientInspector": "",
       "totalDays": 540,
-      "elapsedDays": 142,
+      "elapsedDays": 151,
       "startDate": "2026-04-10"
     },
     "weather": {
@@ -222,7 +222,7 @@
         "base64Data": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"400\" viewBox=\"0 0 600 400\"><rect width=\"600\" height=\"400\" fill=\"%23cbd5e1\"/><rect x=\"40\" y=\"240\" width=\"520\" height=\"130\" fill=\"%2364748b\"/><rect x=\"100\" y=\"80\" width=\"160\" height=\"160\" fill=\"%23e2e8f0\" stroke=\"%2394a3b8\" stroke-width=\"4\"/><path d=\"M100 80 L180 20 L260 80 Z\" fill=\"%23f97316\"/><rect x=\"320\" y=\"140\" width=\"200\" height=\"100\" fill=\"%2338bdf8\" opacity=\"0.8\"/><circle cx=\"500\" cy=\"80\" r=\"40\" fill=\"%23facc15\"/><text x=\"50\" y=\"380\" font-family=\"sans-serif\" font-size=\"20\" fill=\"white\" font-weight=\"bold\">VISTA GERAL - ARMAÇÃO BLOCO A</text></svg>",
         "caption": "Conferência de armação das vigas baldrame do Bloco A com espaçadores instalados.",
         "sectorTag": "Bloco A - Fundação",
-        "timestamp": "2026-09-06T18:30:24.418Z",
+        "timestamp": "2026-09-07T00:34:35.003Z",
         "latitude": -23.5505,
         "longitude": -46.6333,
         "takenOffline": true
@@ -232,7 +232,7 @@
         "base64Data": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"400\" viewBox=\"0 0 600 400\"><rect width=\"600\" height=\"400\" fill=\"%2394a3b8\"/><rect x=\"0\" y=\"260\" width=\"600\" height=\"140\" fill=\"%2378350f\"/><rect x=\"120\" y=\"190\" width=\"180\" height=\"90\" fill=\"%23eab308\" rx=\"10\"/><circle cx=\"150\" cy=\"285\" r=\"28\" fill=\"%231e293b\"/><circle cx=\"270\" cy=\"285\" r=\"28\" fill=\"%231e293b\"/><path d=\"M280 210 L390 150 L450 200\" stroke=\"%23ca8a04\" stroke-width=\"14\" stroke-linecap=\"round\" fill=\"none\"/><text x=\"40\" y=\"380\" font-family=\"sans-serif\" font-size=\"20\" fill=\"white\" font-weight=\"bold\">RETROESCAVADEIRA - VALA DE DRENAGEM</text></svg>",
         "caption": "Abertura de vala para drenagem de águas pluviais com retroescavadeira.",
         "sectorTag": "Área Periférica",
-        "timestamp": "2026-09-06T18:30:24.418Z",
+        "timestamp": "2026-09-07T00:34:35.003Z",
         "latitude": -23.5505,
         "longitude": -46.6333,
         "takenOffline": true
@@ -241,20 +241,20 @@
     "signatures": {
       "engineer": {
         "signed": true,
-        "signerName": "Eng. Roberto Albuquerque Silva",
+        "signerName": "",
         "signerRole": "Engenheiro Responsável Técnico",
-        "signedAt": "2026-09-06T18:30:24.418Z"
+        "signedAt": "2026-09-07T00:34:35.003Z"
       },
       "inspector": {
         "signed": false,
-        "signerName": "Arq. Mariana Mendonça (Fiscal)",
+        "signerName": "",
         "signerRole": "Fiscal da Contratante"
       }
     },
     "generalNotes": "Relatório diário elaborado conforme diretrizes do canteiro. Previsão de chegada de concreto usinado amanhã às 08h30. Sem desvios críticos.",
     "syncStatus": "synced",
-    "createdAt": "2026-09-06T18:30:24.418Z",
-    "updatedAt": "2026-09-06T18:30:24.418Z",
-    "syncedAt": "2026-09-06T18:30:26.490Z"
+    "createdAt": "2026-09-07T00:34:35.003Z",
+    "updatedAt": "2026-09-07T00:34:53.944Z",
+    "syncedAt": "2026-09-07T00:34:54.131Z"
   }
 ]
