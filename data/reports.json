@@ -13,8 +13,8 @@
       "engineerCREA": "",
       "clientInspector": "",
       "totalDays": 540,
-      "elapsedDays": 29,
-      "startDate": "2026-09-10"
+      "elapsedDays": 2,
+      "startDate": "2026-09-06"
     },
     "weather": {
       "morning": {
@@ -254,7 +254,7 @@
     "generalNotes": "Relatório diário elaborado conforme diretrizes do canteiro. Previsão de chegada de concreto usinado amanhã às 08h30. Sem desvios críticos.",
     "syncStatus": "synced",
     "createdAt": "2026-09-07T00:34:35.003Z",
-    "updatedAt": "2026-09-07T00:35:07.906Z",
-    "syncedAt": "2026-09-07T00:35:07.942Z"
+    "updatedAt": "2026-09-07T00:35:09.995Z",
+    "syncedAt": "2026-09-07T00:35:10.032Z"
   }
 ]
