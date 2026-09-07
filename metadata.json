@@ -1,0 +1,11 @@
+{
+  "name": "RDO Obras Offline",
+  "description": "Gerenciador profissional de Relatório Diário de Obra (RDO) com fotos de campo offline, clima automático, efetivo, horas paradas, sincronização e impressão PDF.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
