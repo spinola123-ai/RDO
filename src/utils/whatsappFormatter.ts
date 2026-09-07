@@ -84,7 +84,7 @@ export function generateWhatsAppSummary(report: RDOReport, options?: FormatOptio
     // Prazo se cadastrado
     if (report.projectInfo.totalDays > 0) {
       const percent = Math.min(100, Math.round(((report.projectInfo.elapsedDays || 0) / report.projectInfo.totalDays) * 100));
-      lines.push(`⏳ *Prazo:* Dia ${report.projectInfo.elapsedDays || 0}/${report.projectInfo.totalDays} (${percent}%)`);
+      lines.push(`⏳ *Prazo:* Dia ${(report.projectInfo.elapsedDays || 0) + 1}/${report.projectInfo.totalDays} (${percent}%)`);
     }
 
     lines.push('');
@@ -168,7 +168,7 @@ export function generateWhatsAppSummary(report: RDOReport, options?: FormatOptio
   // Timeline
   if (report.projectInfo.totalDays > 0) {
     const percent = Math.min(100, Math.round(((report.projectInfo.elapsedDays || 0) / report.projectInfo.totalDays) * 100));
-    lines.push(`⏳ *Prazo Contratual:* Dia ${report.projectInfo.elapsedDays || 0} de ${report.projectInfo.totalDays} (${percent}% decorrido)`);
+    lines.push(`⏳ *Prazo Contratual:* Dia ${(report.projectInfo.elapsedDays || 0) + 1} de ${report.projectInfo.totalDays} (${percent}% decorrido)`);
   }
 
   lines.push(''); // Blank line

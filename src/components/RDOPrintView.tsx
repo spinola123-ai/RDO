@@ -105,7 +105,7 @@ export const RDOPrintView: React.FC<RDOPrintViewProps> = ({ report, onBack }) =>
             </div>
             <div>
               <span className="font-bold text-slate-900 block">Prazo Contratual:</span>
-              <span>Dia {report.projectInfo.elapsedDays} de {report.projectInfo.totalDays}</span>
+              <span>Dia {(report.projectInfo.elapsedDays || 0) + 1} de {report.projectInfo.totalDays}</span>
             </div>
             <div className="sm:col-span-2">
               <span className="font-bold text-slate-900 block">Localização da Obra:</span>

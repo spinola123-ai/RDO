@@ -3,9 +3,9 @@
  */
 
 /**
- * Calcula automaticamente a quantidade de dias decorridos de uma obra
- * considerando a data de início e a data do relatório (RDO).
- * No dia de início da obra (data RDO == data início), conta-se como Dia 1 (1º dia decorrido).
+ * Calcula a quantidade de dias decorridos entre a data de início da obra
+ * e a data do relatório (RDO). No dia de início o resultado é 0 (0 dias
+ * decorridos). No dia seguinte o resultado é 1, e assim por diante.
  */
 export function calculateElapsedDays(startDateStr?: string, reportDateStr?: string): number {
   if (!startDateStr || !reportDateStr) return 0;
@@ -24,10 +24,7 @@ export function calculateElapsedDays(startDateStr?: string, reportDateStr?: stri
   const diffMs = reportUTC - startUTC;
   const diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24));
 
-  if (diffDays >= 0) {
-    return diffDays + 1;
-  }
-  return 0;
+  return Math.max(0, diffDays);
 }
 
 /**

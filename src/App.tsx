@@ -206,7 +206,7 @@ export default function App() {
       const autoDays = calculateElapsedDays(activeReport.projectInfo.startDate, newReport.date);
       newReport.projectInfo = {
         ...activeReport.projectInfo,
-        elapsedDays: autoDays > 0 ? autoDays : (activeReport.projectInfo.elapsedDays || 0) + 1,
+        elapsedDays: autoDays >= 0 ? autoDays : (activeReport.projectInfo.elapsedDays || 0) + 1,
       };
     }
 
@@ -239,7 +239,7 @@ export default function App() {
       date: tomorrowStr,
       projectInfo: {
         ...source.projectInfo,
-        elapsedDays: autoDays > 0 ? autoDays : (source.projectInfo.elapsedDays || 0) + 1,
+        elapsedDays: autoDays >= 0 ? autoDays : (source.projectInfo.elapsedDays || 0) + 1,
       },
       stoppages: [],
       photos: [],

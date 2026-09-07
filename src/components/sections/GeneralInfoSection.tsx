@@ -42,7 +42,7 @@ export const GeneralInfoSection: React.FC<GeneralInfoSectionProps> = ({
 
   // Automatically synchronize elapsedDays whenever startDate or actualDate is provided
   useEffect(() => {
-    if (projectInfo.startDate && actualDate && autoElapsedDays > 0) {
+    if (projectInfo.startDate && actualDate && autoElapsedDays >= 0) {
       if (projectInfo.elapsedDays !== autoElapsedDays) {
         onUpdateProjectInfo({
           ...projectInfo,
@@ -64,7 +64,7 @@ export const GeneralInfoSection: React.FC<GeneralInfoSectionProps> = ({
     onUpdateProjectInfo({
       ...projectInfo,
       startDate: newStartDate,
-      elapsedDays: computedDays > 0 ? computedDays : projectInfo.elapsedDays,
+      elapsedDays: computedDays >= 0 ? computedDays : projectInfo.elapsedDays,
     });
   };
 
@@ -72,7 +72,7 @@ export const GeneralInfoSection: React.FC<GeneralInfoSectionProps> = ({
     updateDateHandler(newDate);
     if (projectInfo.startDate && newDate) {
       const computedDays = calculateElapsedDays(projectInfo.startDate, newDate);
-      if (computedDays > 0) {
+      if (computedDays >= 0) {
         onUpdateProjectInfo({
           ...projectInfo,
           elapsedDays: computedDays,
@@ -84,7 +84,7 @@ export const GeneralInfoSection: React.FC<GeneralInfoSectionProps> = ({
   const handleRecalculateDays = () => {
     if (projectInfo.startDate && actualDate) {
       const computed = calculateElapsedDays(projectInfo.startDate, actualDate);
-      if (computed > 0) {
+      if (computed >= 0) {
         onUpdateProjectInfo({
           ...projectInfo,
           elapsedDays: computed,
@@ -418,7 +418,7 @@ export const GeneralInfoSection: React.FC<GeneralInfoSectionProps> = ({
             <CalendarClock className="w-3.5 h-3.5 text-sky-600 shrink-0" />
             {projectInfo.startDate && actualDate ? (
               <span>
-                Contagem automática: do início (<strong>{formatDateBR(projectInfo.startDate)}</strong>) até este diário (<strong>{formatDateBR(actualDate)}</strong>) = <strong>{projectInfo.elapsedDays}º dia</strong> de obra.
+                Contagem automática: do início (<strong>{formatDateBR(projectInfo.startDate)}</strong>) até este diário (<strong>{formatDateBR(actualDate)}</strong>) = <strong>{(projectInfo.elapsedDays || 0) + 1}º dia</strong> de obra.
               </span>
             ) : (
               <span>Informe o início das obras para contagem automática dos dias.</span>

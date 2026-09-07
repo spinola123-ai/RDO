@@ -257,7 +257,7 @@ export const RDOEditor: React.FC<RDOEditorProps> = ({
                 date,
                 projectInfo: {
                   ...report.projectInfo,
-                  ...(autoElapsed > 0 ? { elapsedDays: autoElapsed } : {}),
+                  ...(autoElapsed >= 0 ? { elapsedDays: autoElapsed } : {}),
                 },
               });
             }}
@@ -268,7 +268,7 @@ export const RDOEditor: React.FC<RDOEditorProps> = ({
                 date,
                 projectInfo: {
                   ...report.projectInfo,
-                  ...(autoElapsed > 0 ? { elapsedDays: autoElapsed } : {}),
+                  ...(autoElapsed >= 0 ? { elapsedDays: autoElapsed } : {}),
                 },
               });
             }}

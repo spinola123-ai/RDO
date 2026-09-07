@@ -396,7 +396,7 @@ export function createNewRDOReport(nextNumber: number, customDate?: string): RDO
     date: today,
     projectInfo: {
       ...DEFAULT_PROJECT_INFO,
-      elapsedDays: autoDays > 0 ? autoDays : DEFAULT_PROJECT_INFO.elapsedDays,
+      elapsedDays: autoDays >= 0 ? autoDays : DEFAULT_PROJECT_INFO.elapsedDays,
       engineerName: engineerName,
       engineerCREA: engineerCREA,
       clientInspector: inspectorName,
